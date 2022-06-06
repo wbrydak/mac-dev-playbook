@@ -2,15 +2,18 @@
 downloads: ~/.ansible-downloads/
 
 configure_zsh: true
-oh_my_zsh_theme: robbyrussell
-oh_my_zsh_plugins:
-  - git
-  - brew
-  - history
-  - kubectl
-  - docker
-  - docker-compose
-oh_my_zsh_install: yes
+users:
+  - username: wbrydak
+    oh_my_zsh:
+      theme: ""
+      plugins:
+        - git
+        - brew
+        - history
+        - kubectl
+        - docker
+        - docker-compose
+      install: yes
 
 configure_dotfiles: true
 configure_terminal: false
