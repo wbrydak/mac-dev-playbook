@@ -56,7 +56,7 @@ homebrew_installed_packages:
   - go
   - node
   - numpy
-  - pinetry-mac
+  - pinentry-mac
   - pure
   - readline
   - openssl
